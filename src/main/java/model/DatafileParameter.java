@@ -16,6 +16,8 @@ import javax.persistence.TemporalType;
 import org.eclipse.persistence.nosql.annotations.DataFormatType;
 import org.eclipse.persistence.nosql.annotations.Field;
 import org.eclipse.persistence.nosql.annotations.NoSql;
+import org.icatproject.core.entity.EntityBaseBean;
+import org.icatproject.core.entity.ParameterType;
 
 @Entity()
 @NoSql(dataFormat=DataFormatType.MAPPED, dataType="DATAFILEPARAMETERNOSQL")
